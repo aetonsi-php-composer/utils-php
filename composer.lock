@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c193cc6b906497cea2d72bd2e65f4238",
+    "content-hash": "e633d0c22bcc8d57afe780d0db011055",
     "packages": [
         {
             "name": "aetonsi/traits",

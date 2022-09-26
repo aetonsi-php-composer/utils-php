@@ -1,7 +1,6 @@
 {
     "name": "aetonsi/utils-php",
     "description": "utils class Aetonsi\\Utils\\PHP",
-    "version": "0.0.1",
     "type": "library",
     "require": {
         "php": ">=5",
