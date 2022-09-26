@@ -1,0 +1,22 @@
+{
+    "name": "aetonsi/utils-php",
+    "description": "utils class Aetonsi\\Utils\\PHP",
+    "version": "0.0.1",
+    "type": "library",
+    "require": {
+        "php": ">=5",
+        "aetonsi/traits": "^1.0"
+    },
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "aetonsi",
+            "email": "18366087+aetonsi@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aetonsi\\": "src/"
+        }
+    }
+}

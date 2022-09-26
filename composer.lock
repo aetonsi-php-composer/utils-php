@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c193cc6b906497cea2d72bd2e65f4238",
+    "packages": [
+        {
+            "name": "aetonsi/traits",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aetonsi/aetonsi-traits.git",
+                "reference": "9fb6174e3f88d40b4530c0fe91372ea357cfcdc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aetonsi/aetonsi-traits/zipball/9fb6174e3f88d40b4530c0fe91372ea357cfcdc7",
+                "reference": "9fb6174e3f88d40b4530c0fe91372ea357cfcdc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aetonsi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "aetonsi",
+                    "email": "18366087+aetonsi@users.noreply.github.com"
+                }
+            ],
+            "description": "various Traits under the namespace Aetonsi\\Traits\\",
+            "support": {
+                "issues": "https://github.com/aetonsi/aetonsi-traits/issues",
+                "source": "https://github.com/aetonsi/aetonsi-traits/tree/1.0.1"
+            },
+            "time": "2022-09-26T15:15:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
