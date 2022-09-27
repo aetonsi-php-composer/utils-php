@@ -80,4 +80,21 @@ class PHP
         self::showAllErrors();
         self::convertAllErrorsToExceptions();
     }
+
+    /**
+     * Runs the given function capturing its output and returning it as string.
+     *
+     * @param callable|\Closure $fn
+     * @return string
+     */
+    public static function catchOutput($fn)
+    {
+        $args = [];
+        for ($i = 1; $i < \func_num_args(); $i++) { // skip first argument as it's $fn
+            $args[] = \func_get_args()[$i];
+        }
+        \ob_start();
+        \call_user_func_array($fn, $args);
+        return \ob_get_clean();
+    }
 }
