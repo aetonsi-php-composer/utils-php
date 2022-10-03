@@ -97,4 +97,14 @@ class PHP
         \call_user_func_array($fn, $args);
         return \ob_get_clean();
     }
+
+    /**
+     * Sets up UTF-8 encoding.
+     */
+    public static function setupUtf8Encoding()
+    {
+        \ini_set('default_charset', 'UTF-8');
+        \mb_internal_encoding('UTF-8');
+        \mb_http_output('UTF-8');
+    }
 }
